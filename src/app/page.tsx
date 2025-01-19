@@ -7,7 +7,7 @@ export default function Home() {
       <SignedOut>
         <SignInButton mode="modal">
           <Button>
-            Sign in
+            Sign in one
           </Button>
         </SignInButton>
       </SignedOut>
