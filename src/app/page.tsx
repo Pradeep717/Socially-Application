@@ -5,19 +5,7 @@ import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
 export default function Home() {
   return (
     <div>
-      <SignedOut>
-        <SignInButton mode="modal">
-          <Button>
-            Sign in one
-          </Button>
-        </SignInButton>
-      </SignedOut>
-      <SignedIn>
-        <UserButton />
-      </SignedIn>
-
-      <ModeToggle/>
-
+      <h1> Home page </h1>
     </div>
   );
 }
